@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brand"> Grand Place Hotel</div>
+        <nav>
+            <a href="index.html">Home</a>  
+            <a href="rooms.html">Rooms</a>
+            <a href="booking.html">Booking</a>
+        </nav>
+    </header>
+<main class="container">
+        <h2>Book Your Stay</h2>
+        <form action="" class="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label>Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin">
+            <label >Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout">
+            <label>Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1">
+
+            <label for="room">Room Type:</label>
+            <select id="room" name="room" required>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+                <option value="king">King Room</option>
+            </select>
+            <button type="submit">Book Now</button>
+        
+        
+        </form></main>
+        <footer>
+            <p>&copy; 2024 Grand Place Hotel. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>

@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    
+    background-color: #fcfae0;
+    color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #003366;
+    color: #ebecf7;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #ebecf7;
+}
+nav a{
+    text-decoration: none;
+    color: #ebecf7;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.hero{
+    background-color: #dac34f;
+    color: #030940;
+    padding: 50px 20px;
+    text-align: center;
+}
+.container{
+    flex: 1;
+    width: 90%;
+    
+    margin: 55px auto;
+    padding: 0 20px;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f0a53;
+}
+.container p{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #0f0a53;
+}
+
+footer{
+    text-align: center;
+    
+    background: #003366;
+    color: #fff;
+    font-size: 1rem;
+}
+.room{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #0f0a53;
+    font-weight: bold;
+}
+
+.card{
+    background-color:#dac34f;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    
+}
+.card h3{
+    color: #180a4a;
+}
+.card:hover{
+    transform: translateY(-5px);
+
+}
+.booking-form{
+    width: 50%;
+    background-color: #dac34f;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+.booking-form label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.booking-form input, .booking-form select{
+    padding: 10px;
+    margin-bottom: 20px;
+   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+}
+.booking-form select{
+    width: 95%;
+}
+button{
+    background-color: #003366;
+    color: #fbfbfb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 95%;
+    
+}
+button:hover{
+    background-color: #030940;
+}
